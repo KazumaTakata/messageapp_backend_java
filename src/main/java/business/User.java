@@ -1,5 +1,6 @@
 package business;
 
+import javax.servlet.*;
 
 public class User {
 
@@ -7,6 +8,7 @@ public class User {
 
     public User(String name) {
         this.name = name;
+
     }
 
 }
