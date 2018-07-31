@@ -11,16 +11,14 @@
 </head>
 
 <body>
-<%@ page import="business.*, email.*"%>
+<%@ page import="business.*"%>
 
 <%
     String firstName = request.getParameter("firstName");
-
-    AddToEmailListServlet user = new AddToEmailListServlet();
+    
+    User user = new User("fjei");
 
 %>
-
-
 
 </body>
 
